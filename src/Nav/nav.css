@@ -3,6 +3,7 @@
   font-family: 'Rye', cursive;
   overflow: hidden;
   background-color: #333;
+  height: 52px;
 }
 
 .topnav a {
@@ -20,7 +21,7 @@
   color: gray;
 }
 
-.topnav a.active {
+.topnav a:active {
   color: #04aa6d;
 }
 

@@ -1,13 +1,15 @@
+import React from "react";
+import {Switch,Route} from 'react-router-dom'
 import './main.css';
-import './nav.css'
-import Nav from './Nav'
-function App() {
+import './Nav/nav.css'
+import './main_page/Page1.css'
+import Page1 from './main_page/Page1'
+const App = () => {
   return (
-    <div className="App">
-      <Nav/>
-     <h1>working ok</h1>
-    </div>
-  );
-}
+<Switch>
+    <Route path='/' component={Page1}/>
+  </Switch>
+  )
+};
 
 export default App;
