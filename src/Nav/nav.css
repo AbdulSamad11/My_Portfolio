@@ -36,9 +36,12 @@
   font-size: 2.5rem;
 }
 @media screen and (max-width: 620px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
+  .logo{
+    padding: 0 0 0 4px;
+   }
+   .topnav a{
+     padding: 30px 5px 10px 5px;;
+   }
   .topnav a.icon {
     float: left;
     display: block;
