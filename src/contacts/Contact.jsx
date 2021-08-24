@@ -27,7 +27,7 @@ const Contact = () => {
     const send = () => {
 
         axios
-            .post("http://localhost:3001/sendMessage", {
+            .post("http://https://portfolio-server-01.herokuapp.com:3001/sendMessage", {
                 firstName: msgInfo.firstName,
                 lastName: msgInfo.lastName,
                 phone: msgInfo.phone,
